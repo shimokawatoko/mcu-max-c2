@@ -110,6 +110,9 @@ bool send_uci_command(char *line)
     }
     else if (!strcmp(token, "position"))
     {
+        */現在の手番を表示
+        printf("info string Current side before: %s\n", 
+               mcumax_get_current_side() == MCUMAX_BOARD_WHITE ? "WHITE" : "BLACK");
         int fen_index = 0;
         char fen_string[256];
 
@@ -124,7 +127,9 @@ bool send_uci_command(char *line)
                 if (fen_index > 6)
                 {
                     mcumax_set_fen_position(fen_string);
-
+                    printf("info string Current side after FEN: %s\n", 
+                           mcumax_get_current_side() == MCUMAX_BOARD_WHITE ? "WHITE" : "BLACK");
+                    printf("info string FEN: %s\n", fen_string);
                     fen_index = 0;
                 }
             }
@@ -149,6 +154,9 @@ bool send_uci_command(char *line)
     }
     else if (!strcmp(token, "go"))
     {
+        
+        printf("info string Current side before search: %s\n", 
+                mcumax_get_current_side() == MCUMAX_BOARD_WHITE ? "WHITE" : "BLACK")
         mcumax_move move = mcumax_search_best_move(100000, 9);
         mcumax_play_move(move);
 
