@@ -10,7 +10,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "mcu-max.h"
+#include "mcumax_board.h"
+#include "mcumax_core.h"
+#include "mcumax_fen.h"
+#include "mcumax_search.h"
+#include "mcumax_types.h"
 
 #define MAIN_VALID_MOVES_NUM 512
 
