@@ -3,7 +3,7 @@
  * 探索機能の実装
  */
 
-#include "mcumax.h"
+#include "mcu-max.h"
 #include "mcumax_types.h"
 #include "mcumax_core.h"
 

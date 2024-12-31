@@ -3,7 +3,7 @@
  * ボード操作の実装
  */
 
-#include "mcumax.h"
+#include "mcu-max.h"
 #include "mcumax_types.h"
 
 // 初期配置の駒の配列
