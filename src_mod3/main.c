@@ -7,7 +7,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h> // bool 型を認識するために追加
 
+#include "mcumax_constants.h" // 定数を使用するために追加
 #include "mcumax_api.h"
 
 #define MAIN_VALID_MOVES_NUM 512
