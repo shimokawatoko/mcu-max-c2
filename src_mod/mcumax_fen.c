@@ -3,7 +3,7 @@
  * FEN形式の盤面表現の処理
  */
 
-#include "mcu-max.h"
+#include "mcumax_board.h"  // 追加
 #include "mcumax_types.h"
 
 /*

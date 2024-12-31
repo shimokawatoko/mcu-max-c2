@@ -9,4 +9,5 @@ add_executable(mcu-max-uci
    mcumax_board.c 
    mcumax_fen.c
    mcumax_search.c
+   mcumax_core.c
 )
