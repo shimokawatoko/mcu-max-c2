@@ -1,0 +1,25 @@
+uci
+
+isready
+-->readyok
+
+ucinewgame
+
+position startpos
+
+go
+
+d - 現在の盤面を表示
+l - 可能な手の一覧を表示
+quit - プログラムを終了
+
+---------------------
+
+例えば代表的な応手として：
+
+インド系の戦法: position startpos moves d2d4 g8f6 (ナイトをg8からf6に移動)
+スラヴ防御: position startpos moves d2d4 d7d5 (d7のポーンをd5に移動)
+オランダ防御: position startpos moves d2d4 f7f5 (f7のポーンをf5に移動)
+
+手を入力したら、goコマンドを入力することでエンジンの応手を促すことができます。
+また、現在の盤面を確認したい場合はdコマンド、可能な手を確認したい場合はlコマンドを使用できます。

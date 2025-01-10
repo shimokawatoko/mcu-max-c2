@@ -1,0 +1,77 @@
+Current position evaluation:
+Total score: 0
+
+Piece positions and values:
+Square a8: Black Rook Position value: 28
+Square b8: Empty Position value: 21
+Square c8: Black Bishop Position value: 16
+Square d8: Black Queen Position value: 13
+Square e8: Black King Position value: 12
+Square f8: Black Bishop Position value: 13
+Square g8: Black Knight Position value: 16
+Square h8: Black Rook Position value: 21
+
+Square a7: Black Pawn Position value: 22
+Square b7: Black Pawn Position value: 15
+Square c7: Black Pawn Position value: 10
+Square d7: Empty Position value: 7
+Square e7: Black Pawn Position value: 6
+Square f7: Black Pawn Position value: 7
+Square g7: Black Pawn Position value: 10
+Square h7: Black Pawn Position value: 15
+
+Square a6: Empty Position value: 18
+Square b6: Empty Position value: 11
+Square c6: Black Knight Position value: 6
+Square d6: Empty Position value: 3
+Square e6: Empty Position value: 2
+Square f6: Empty Position value: 3
+Square g6: Empty Position value: 6
+Square h6: Empty Position value: 11
+
+Square a5: Empty Position value: 16
+Square b5: Empty Position value: 9
+Square c5: Empty Position value: 4
+Square d5: Black Pawn Position value: 1
+Square e5: Empty Position value: 0
+Square f5: Empty Position value: 1
+Square g5: Empty Position value: 4
+Square h5: Empty Position value: 9
+
+Square a4: Empty Position value: 16
+Square b4: Empty Position value: 9
+Square c4: Empty Position value: 4
+Square d4: Empty Position value: 1
+Square e4: White Pawn Position value: 0
+Square f4: Empty Position value: 1
+Square g4: Empty Position value: 4
+Square h4: Empty Position value: 9
+
+Square a3: Empty Position value: 18
+Square b3: Empty Position value: 11
+Square c3: White Knight Position value: 6
+Square d3: White Pawn Position value: 3
+Square e3: Empty Position value: 2
+Square f3: Empty Position value: 3
+Square g3: Empty Position value: 6
+Square h3: Empty Position value: 11
+
+Square a2: White Pawn Position value: 22
+Square b2: White Pawn Position value: 15
+Square c2: White Pawn Position value: 10
+Square d2: Empty Position value: 7
+Square e2: Empty Position value: 6
+Square f2: White Pawn Position value: 7
+Square g2: White Pawn Position value: 10
+Square h2: White Pawn Position value: 15
+
+Square a1: White Rook Position value: 28
+Square b1: Empty Position value: 21
+Square c1: White Bishop Position value: 16
+Square d1: White Queen Position value: 13
+Square e1: White King Position value: 12
+Square f1: White Bishop Position value: 13
+Square g1: White Knight Position value: 16
+Square h1: White Rook Position value: 21
+
+Total non-pawn material: 0

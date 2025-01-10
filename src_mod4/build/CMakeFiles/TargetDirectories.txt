@@ -1,0 +1,3 @@
+C:/Users/b0318/00_code/03_kaggle/01_chess/mcu-max-c2/src_mod4/build/CMakeFiles/mcu-max-uci.dir
+C:/Users/b0318/00_code/03_kaggle/01_chess/mcu-max-c2/src_mod4/build/CMakeFiles/edit_cache.dir
+C:/Users/b0318/00_code/03_kaggle/01_chess/mcu-max-c2/src_mod4/build/CMakeFiles/rebuild_cache.dir
