@@ -152,7 +152,7 @@ bool send_uci_command(char *line)
     {
         //clock_t start = clock();  // 時間計測開始
 
-        mcumax_move move = mcumax_search_best_move(10000, 7);
+        mcumax_move move = mcumax_search_best_move(50000, 7);
         mcumax_play_move(move);
 
         //clock_t end = clock();  // 時間計測終了
