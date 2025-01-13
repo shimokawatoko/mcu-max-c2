@@ -11,6 +11,7 @@
 extern "C" {
 #endif
 
+#include <stdbool.h>  // 修正: bool 型を定義
 #include "mcumax_types.h"
 
 /**

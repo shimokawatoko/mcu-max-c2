@@ -391,11 +391,11 @@ static int32_t mcumax_search(int32_t alpha,
                             if (scan_piece_type < 3)
                             {
                                 step_score -=
-                                    9 * ((((square_from - 2) & MCUMAX_BOARD_MASK) ||
-                                          mcumax.board[square_from - 2] - scan_piece) +
+                                    9 * ((((square_from - 1) & MCUMAX_BOARD_MASK) ||
+                                          mcumax.board[square_from - 1] - scan_piece) +
                                          // Structure, undefended
-                                         (((square_from + 2) & MCUMAX_BOARD_MASK) ||
-                                          mcumax.board[square_from + 2] - scan_piece) -
+                                         (((square_from + 1) & MCUMAX_BOARD_MASK) ||
+                                          mcumax.board[square_from + 1] - scan_piece) -
                                          1 +
                                          // Squares plus bias
                                          (mcumax.board[square_from ^ 0x10] ==
