@@ -1,5 +1,5 @@
 CMakeFiles/mcu-max-uci.dir/main.c.obj: \
- C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\main.c \
+ C:\Users\b0318\chess2\mcu-max\src_mod5\main.c \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/corecrt.h \
@@ -21,7 +21,7 @@ CMakeFiles/mcu-max-uci.dir/main.c.obj: \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/malloc.h \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/string.h \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\mcu-max.h \
+ C:\Users\b0318\chess2\mcu-max\src_mod5\mcu-max.h \
  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdbool.h \
  C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdint.h \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/stdint.h \

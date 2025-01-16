@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5
+CMAKE_SOURCE_DIR = C:\Users\b0318\chess2\mcu-max\src_mod5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build
+CMAKE_BINARY_DIR = C:\Users\b0318\chess2\mcu-max\src_mod5\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/mcu-max-uci.dir/clean
 CMakeFiles/mcu-max-uci.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mcu-max-uci.dir\build.make CMakeFiles/mcu-max-uci.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mcu-max-uci.dir\build.make CMakeFiles/mcu-max-uci.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build\CMakeFiles --progress-num=1,2,3 "Built target mcu-max-uci"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\b0318\chess2\mcu-max\src_mod5\build\CMakeFiles --progress-num=1,2,3 "Built target mcu-max-uci"
 .PHONY : CMakeFiles/mcu-max-uci.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mcu-max-uci.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\b0318\chess2\mcu-max\src_mod5\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/mcu-max-uci.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\b0318\chess2\mcu-max\src_mod5\build\CMakeFiles 0
 .PHONY : CMakeFiles/mcu-max-uci.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ mcu-max-uci: CMakeFiles/mcu-max-uci.dir/rule
 # codegen rule for target.
 CMakeFiles/mcu-max-uci.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mcu-max-uci.dir\build.make CMakeFiles/mcu-max-uci.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target mcu-max-uci"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\b0318\chess2\mcu-max\src_mod5\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target mcu-max-uci"
 .PHONY : CMakeFiles/mcu-max-uci.dir/codegen
 
 # clean rule for target.

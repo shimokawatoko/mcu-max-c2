@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5
+CMAKE_SOURCE_DIR = C:\Users\b0318\chess2\mcu-max\src_mod5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build
+CMAKE_BINARY_DIR = C:\Users\b0318\chess2\mcu-max\src_mod5\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mcu-max-uci.dir/depend.make
@@ -73,33 +73,33 @@ CMakeFiles/mcu-max-uci.dir/codegen:
 
 CMakeFiles/mcu-max-uci.dir/main.c.obj: CMakeFiles/mcu-max-uci.dir/flags.make
 CMakeFiles/mcu-max-uci.dir/main.c.obj: CMakeFiles/mcu-max-uci.dir/includes_C.rsp
-CMakeFiles/mcu-max-uci.dir/main.c.obj: C:/Users/b0318/00_code/03_kaggle/01_chess/mcu-max-c2/src_mod5/main.c
+CMakeFiles/mcu-max-uci.dir/main.c.obj: C:/Users/b0318/chess2/mcu-max/src_mod5/main.c
 CMakeFiles/mcu-max-uci.dir/main.c.obj: CMakeFiles/mcu-max-uci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mcu-max-uci.dir/main.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mcu-max-uci.dir/main.c.obj -MF CMakeFiles\mcu-max-uci.dir\main.c.obj.d -o CMakeFiles\mcu-max-uci.dir\main.c.obj -c C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\b0318\chess2\mcu-max\src_mod5\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mcu-max-uci.dir/main.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mcu-max-uci.dir/main.c.obj -MF CMakeFiles\mcu-max-uci.dir\main.c.obj.d -o CMakeFiles\mcu-max-uci.dir\main.c.obj -c C:\Users\b0318\chess2\mcu-max\src_mod5\main.c
 
 CMakeFiles/mcu-max-uci.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mcu-max-uci.dir/main.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\main.c > CMakeFiles\mcu-max-uci.dir\main.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\b0318\chess2\mcu-max\src_mod5\main.c > CMakeFiles\mcu-max-uci.dir\main.c.i
 
 CMakeFiles/mcu-max-uci.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mcu-max-uci.dir/main.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\main.c -o CMakeFiles\mcu-max-uci.dir\main.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\b0318\chess2\mcu-max\src_mod5\main.c -o CMakeFiles\mcu-max-uci.dir\main.c.s
 
 CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj: CMakeFiles/mcu-max-uci.dir/flags.make
 CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj: CMakeFiles/mcu-max-uci.dir/includes_C.rsp
-CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj: C:/Users/b0318/00_code/03_kaggle/01_chess/mcu-max-c2/src_mod5/mcu-max.c
+CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj: C:/Users/b0318/chess2/mcu-max/src_mod5/mcu-max.c
 CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj: CMakeFiles/mcu-max-uci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj -MF CMakeFiles\mcu-max-uci.dir\mcu-max.c.obj.d -o CMakeFiles\mcu-max-uci.dir\mcu-max.c.obj -c C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\mcu-max.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\b0318\chess2\mcu-max\src_mod5\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj -MF CMakeFiles\mcu-max-uci.dir\mcu-max.c.obj.d -o CMakeFiles\mcu-max-uci.dir\mcu-max.c.obj -c C:\Users\b0318\chess2\mcu-max\src_mod5\mcu-max.c
 
 CMakeFiles/mcu-max-uci.dir/mcu-max.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mcu-max-uci.dir/mcu-max.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\mcu-max.c > CMakeFiles\mcu-max-uci.dir\mcu-max.c.i
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\b0318\chess2\mcu-max\src_mod5\mcu-max.c > CMakeFiles\mcu-max-uci.dir\mcu-max.c.i
 
 CMakeFiles/mcu-max-uci.dir/mcu-max.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mcu-max-uci.dir/mcu-max.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\mcu-max.c -o CMakeFiles\mcu-max-uci.dir\mcu-max.c.s
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\b0318\chess2\mcu-max\src_mod5\mcu-max.c -o CMakeFiles\mcu-max-uci.dir\mcu-max.c.s
 
 # Object files for target mcu-max-uci
 mcu__max__uci_OBJECTS = \
@@ -115,7 +115,7 @@ mcu-max-uci.exe: CMakeFiles/mcu-max-uci.dir/build.make
 mcu-max-uci.exe: CMakeFiles/mcu-max-uci.dir/linkLibs.rsp
 mcu-max-uci.exe: CMakeFiles/mcu-max-uci.dir/objects1.rsp
 mcu-max-uci.exe: CMakeFiles/mcu-max-uci.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable mcu-max-uci.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\b0318\chess2\mcu-max\src_mod5\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable mcu-max-uci.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mcu-max-uci.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/mcu-max-uci.dir/clean:
 .PHONY : CMakeFiles/mcu-max-uci.dir/clean
 
 CMakeFiles/mcu-max-uci.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5 C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5 C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build C:\Users\b0318\00_code\03_kaggle\01_chess\mcu-max-c2\src_mod5\build\CMakeFiles\mcu-max-uci.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\b0318\chess2\mcu-max\src_mod5 C:\Users\b0318\chess2\mcu-max\src_mod5 C:\Users\b0318\chess2\mcu-max\src_mod5\build C:\Users\b0318\chess2\mcu-max\src_mod5\build C:\Users\b0318\chess2\mcu-max\src_mod5\build\CMakeFiles\mcu-max-uci.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mcu-max-uci.dir/depend
 

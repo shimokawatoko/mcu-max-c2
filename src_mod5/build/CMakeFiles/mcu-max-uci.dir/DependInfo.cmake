@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/b0318/00_code/03_kaggle/01_chess/mcu-max-c2/src_mod5/main.c" "CMakeFiles/mcu-max-uci.dir/main.c.obj" "gcc" "CMakeFiles/mcu-max-uci.dir/main.c.obj.d"
-  "C:/Users/b0318/00_code/03_kaggle/01_chess/mcu-max-c2/src_mod5/mcu-max.c" "CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj" "gcc" "CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj.d"
+  "C:/Users/b0318/chess2/mcu-max/src_mod5/main.c" "CMakeFiles/mcu-max-uci.dir/main.c.obj" "gcc" "CMakeFiles/mcu-max-uci.dir/main.c.obj.d"
+  "C:/Users/b0318/chess2/mcu-max/src_mod5/mcu-max.c" "CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj" "gcc" "CMakeFiles/mcu-max-uci.dir/mcu-max.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
