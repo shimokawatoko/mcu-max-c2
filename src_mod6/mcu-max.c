@@ -280,42 +280,43 @@ static int32_t mcumax_search(int32_t alpha,
 
         do
         {
-            // Scan board looking for
+            // 盤面上の駒を取得
             scan_piece = mcumax.board[square_from];
 
-            // Own piece (inefficient!)
+            // 自分の駒である場合の処理 (inefficient!)
             if (scan_piece & mcumax.current_side)
             {
-                // p = piece type (set r>0)
+                // 駒の種類を取得 p = piece type (set r>0)
                 step_vector = scan_piece_type = (scan_piece & 0b111);
 
-                // First step vector for piece
+                // その駒の移動方向の初期インデックスを取得
                 step_vector_index = mcumax_step_vectors_indices[scan_piece_type];
 
-                // Loop over directions o[]
+                // 移動方向に関するループ o[]
                 while ((step_vector = ((scan_piece_type > 2) &&
                                        (step_vector < 0))
                                           ? -step_vector
                                           : -mcumax_step_vectors[++step_vector_index]))
                 {
                 replay:
-                    // Resume normal after best
+                    // 移動元の位置を設定 Resume normal after best
                     square_to = square_from;
 
+                    // キャスリング関連の初期化
                     castling_skip_square =
                         castling_rook_square = MCUMAX_SQUARE_INVALID;
 
-                    // y traverses ray, or:
+                    // 駒の移動に関するループ y traverses ray, or:
                     do
                     {
-                        // Sneak in previous best move
+                        // 移動先の位置を計算 Sneak in previous best move
                         capture_square =
                             square_to =
                                 replay_move
                                     ? (iter_square_to ^ replay_move)
                                     : (square_to + step_vector);
 
-                        // Board edge hit
+                        // 盤外チェック
                         if (square_to & MCUMAX_BOARD_MASK)
                             break;
 
