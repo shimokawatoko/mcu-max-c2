@@ -227,32 +227,34 @@ static int32_t mcumax_search(int32_t alpha,
     // Min depth = 2 iterative deepening loop
     // root: deepen upto time
     // time's up: go do best
-    while ((iter_depth++ < depth) ||
-           (iter_depth < 3) ||
-           ((mode != MCUMAX_INTERNAL_NODE) &&
-            (mcumax.square_from == MCUMAX_SQUARE_INVALID) &&
-            (((mcumax.node_count < mcumax.node_max) &&
-              (iter_depth <= mcumax.depth_max)) ||
-             (mcumax.square_from = iter_square_from,
-              mcumax.square_to = iter_square_to & ~MCUMAX_BOARD_MASK,
-              iter_depth = 3))))
+    while ((iter_depth++ < depth) ||                            //インクリメントしながら比較
+           (iter_depth < 3) ||                                  //最低でも深さ3まで探索することを保証
+           ((mode != MCUMAX_INTERNAL_NODE) &&                   //内部ノードの探索でない場合
+            (mcumax.square_from == MCUMAX_SQUARE_INVALID) &&    //まだ移動元のマスが決定されていない場合
+            (((mcumax.node_count < mcumax.node_max) &&          //探索したノード数が上限未満
+              (iter_depth <= mcumax.depth_max)) ||              //現在の深さが最大深さ以下
+             (mcumax.square_from = iter_square_from,            //見つかった最善手を設定
+              mcumax.square_to = iter_square_to & ~MCUMAX_BOARD_MASK,   //移動元と移動先を更新
+              iter_depth = 3))))                                //深さを3にリセット
     {
-        if (mcumax.stop_search)
+        if (mcumax.stop_search)     // 探索停止のチェック
             break;
 
-        // Start scan at previous best
+        // 探索開始位置の設定
+        //  通常の探索なら前回の最善手から
+        //  合法手探索なら盤面の始めから
         square_from =
             square_start = (mode != MCUMAX_SEARCH_VALID_MOVES)
                                ? iter_square_from
                                : 0;
 
-        // Request try noncastling first
+        // キャスリング以外を先に試行
         replay_move = iter_square_to & MCUMAX_SQUARE_INVALID;
 
-        // Change side
+        // 手番の交代
         mcumax.current_side ^= 0x18;
 
-        // Search null move
+        // Null Move探索（相手に連続して動かせる場合の評価）
         null_move_score = (iter_depth > 2) && (beta != -MCUMAX_SCORE_MAX)
                               ? mcumax_search(-beta,
                                               1 - beta,
@@ -262,10 +264,10 @@ static int32_t mcumax_search(int32_t alpha,
                                               MCUMAX_INTERNAL_NODE)
                               : MCUMAX_SCORE_MAX;
 
-        // Change side
+        // 手番を元に戻す
         mcumax.current_side ^= 0x18;
 
-        // Prune if > beta unconsidered:static eval
+        // ベータカット用のスコア計算
         iter_score = (-null_move_score < beta) ||
                              (mcumax.non_pawn_material > 35)
                          ? (iter_depth - 2)
@@ -273,7 +275,7 @@ static int32_t mcumax_search(int32_t alpha,
                                : score
                          : -null_move_score;
 
-        // Node count (for timing)
+        // ノードカウントの増加 (for timing)
         mcumax.node_count++;
 
         do
